@@ -17,9 +17,9 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     ext {
-        // Versions for all the dependencies we plan to use. It's particularly useful for kotlin
-        // where the versions of the plugin needs to be the same as the version of the
-        // library defined in the app Gradle file
+        // Versi untuk semua dependensi yang digunakan. 
+        // Ini sangat berguna untuk kotlin di mana versi plugin harus sama 
+        // dengan versi perpustakaan yang ditentukan dalam file Gradle aplikasi
         kotlin_version = "1.5.31"
     }
     repositories {
@@ -29,8 +29,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+      
     }
 }
 
